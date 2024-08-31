@@ -1,5 +1,5 @@
 // 1-init
-#include "../includes/philosophers.h"
+#include "philosophers.h"
 
 int	is_someone_dead(t_data *data)
 {
