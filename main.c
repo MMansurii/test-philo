@@ -282,10 +282,10 @@ void	*routin(void *arg)
 }
 
 //5-utils
-int	ft_isspace(int c)
-{
-	return ((c >= 9 && c <= 13) || c == 32);
-}
+//int	ft_isspace(int c)
+//{
+//	return ((c >= 9 && c <= 13) || c == 32);
+//}
 
 int	is_digit(char *args)
 {
@@ -321,7 +321,7 @@ int	is_valid_integer(char **args)
 	return (1);
 }
 
-long	long_atoi(char *str)
+/*long	long_atoi(char *str)
 {
 	int			i;
 	int			flag;
@@ -345,6 +345,7 @@ long	long_atoi(char *str)
 	}
 	return (flag * num);
 }
+*/
 
 void	*exit_code(t_data *data)
 {

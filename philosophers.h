@@ -1,7 +1,8 @@
 #ifndef PHILOSOPHERS_H
 # define PHILOSOPHERS_H
-# include "../libs/libft/libft.h"
+//# include "../libs/libft/libft.h"
 # include <stdio.h>
+# include <stdlib.h>
 # include <limits.h>
 # include <pthread.h>
 # include <unistd.h>
@@ -39,6 +40,11 @@ typedef struct s_data
 	pthread_mutex_t		finished;
 	pthread_mutex_t		stop;
 }t_data;
+
+
+int	ft_isdigit(int c);
+int	ft_atoi(const char *str);
+
 
 int				is_valid_integer(char **args);
 long long		current_time(void);
